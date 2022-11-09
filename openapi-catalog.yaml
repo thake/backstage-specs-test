@@ -8,4 +8,4 @@ spec:
   lifecycle: production
   owner: team-a  
   definition:
-    $text: ./openapi.yaml
+    $openapi: ./openapi.yaml
