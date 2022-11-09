@@ -1,0 +1,15 @@
+openapi: 3.0.0
+info:
+  version: 1.0.0
+  title: Sample API
+  description: A sample API to illustrate OpenAPI concepts
+paths: {}
+components: 
+  schemas:
+    ExampleSchema:
+      type: object
+      properties: 
+        name:
+          type: string
+        age:
+          type: integer
