@@ -1,0 +1,12 @@
+asyncapi: 2.5.0
+info:
+  version: 1.0.0
+  title: Sample API
+  description: A sample API to illustrate OpenAPI concepts
+channels:
+  my-topic:
+    subscribe:
+      message: 
+        schemaFormat: "application/schema+json;version=draft-07"
+        payload: 
+          $ref : "./asyncapi.schema.json"

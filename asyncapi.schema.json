@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "description": "ExampleSchema",
+  "properties": {
+    "name" : {
+      "type": "string"
+    },
+    "age" : {
+      "type" : "integer"
+    }
+  }
+}

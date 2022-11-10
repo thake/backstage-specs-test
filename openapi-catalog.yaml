@@ -9,3 +9,15 @@ spec:
   owner: team-a  
   definition:
     $openapi: ./openapi.yaml
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: artist-async-api
+  description: Retrieve artist details
+spec:
+  type: asyncapi
+  lifecycle: production
+  owner: team-a
+  definition:
+    $openapi: ./asyncapi.yaml
