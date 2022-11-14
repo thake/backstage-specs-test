@@ -20,4 +20,4 @@ spec:
   lifecycle: production
   owner: team-a
   definition:
-    $openapi: ./asyncapi.yaml
+    $asyncapi: ./asyncapi.yaml
