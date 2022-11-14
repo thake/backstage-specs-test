@@ -13,4 +13,4 @@ paths:
           content: 
             application/json:
               schema: 
-                $ref: "common.yaml#/components/schemas/ExampleSchema"
+                $ref: "./schemas/common.yaml#/components/schemas/ExampleSchema"

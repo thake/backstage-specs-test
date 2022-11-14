@@ -9,4 +9,4 @@ channels:
       message: 
         schemaFormat: "application/schema+json;version=draft-07"
         payload: 
-          $ref : "./asyncapi.schema.json"
+          $ref : "./schemas/asyncapi.schema.json"
