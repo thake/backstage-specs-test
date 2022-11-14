@@ -14,7 +14,7 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: artist-async-api
-  description: Retrieve artist details
+  description: Retrieve artist details v2
 spec:
   type: asyncapi
   lifecycle: production
